@@ -19,7 +19,7 @@
                 if (ws.readyState === 1) {
                     clearInterval(timer);
                     resolve(ws);
-                } else reject(ws);
+                }
             }, 10);
         });
     }
